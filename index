@@ -10,10 +10,10 @@
       margin: 0;
       font-family: 'Noto Sans TC', sans-serif;
       min-height: 100vh;
-      background: url(assets/bg-desktop.png) center/cover no-repeat fixed;
+      background: url(assets/Web\ 1280\ –\ 4.png) center/cover no-repeat fixed;
     }
     @media (max-width: 650px) {
-      body { background: url(assets/bg-mobile.png) center/cover no-repeat fixed; }
+      body { background: url(assets/iPhone\ 14、13、12.png) center/cover no-repeat fixed; }
     }
     #mainbox {
       width: 350px; max-width: 96vw;
@@ -27,7 +27,7 @@
       text-align: center;
       display: flex; flex-direction: column; align-items: center;
     }
-    #titleimg { width: 210px; margin: 0 auto 1rem auto; }
+    #titleimg { width: 210px; margin: 0 auto 1.1rem auto; }
     .qbox { color: #322A28; font-size: 1.1rem; margin-bottom: 1rem; }
     .choice-btn {
       display: block; width: 100%;
@@ -61,23 +61,23 @@
     #logo { width: 62px; margin: 18px auto 0 auto; display: block; }
     @media (max-width:450px) {
       #mainbox { padding: 1.1rem 0.5rem 1rem 0.5rem; }
-      #titleimg { width: 152px; }
+      #titleimg { width: 145px; }
     }
   </style>
 </head>
 <body>
   <div id="mainbox">
-    <img src="assets/1970年代回憶青紅燈.png" id="1970年代回憶青紅燈" alt="1970s回憶青紅燈"/>
+    <img src="assets/1970年代回憶青紅燈.png" id="titleimg" alt="1970s回憶青紅燈"/>
     <div class="qbox" id="qbox"></div>
     <div id="choices"></div>
     <div id="feedback"></div>
     <button id="nextbtn">下一題 ▶</button>
     <div id="result"></div>
-    <img src="assets/湠臺灣LOGO.png" id="湠臺灣LOGO" alt="湠臺灣LOGO"/>
+    <img src="assets/湠臺灣LOGO.png" id="logo" alt="湠臺灣LOGO"/>
   </div>
 <script>
 const data = [
-  {q:'救國團大露營時，大家穿著的制服主色通常是',c:['綠色','藍色','紅色'],a:0},
+  {q:'當年救國團用營隊及愛情的想像吸引青年，參加營隊時大家穿著的制服主色通常是',c:['綠色','藍色','紅色'],a:0},
   {q:'1970年代最常見的校園午餐主食是',c:['麵包','便當','壽司'],a:1},
   {q:'那年代最夯的舞會配樂風格是',c:['Disco','R&B','饒舌'],a:0}
 ];
