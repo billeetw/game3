@@ -67,13 +67,13 @@
 </head>
 <body>
   <div id="mainbox">
-    <img src="assets/1970年代回憶青紅燈.png" id="titleimg" alt="1970s回憶青紅燈"/>
+    <img src="main/assets/1970年代回憶青紅燈.png" id="titleimg" alt="1970s回憶青紅燈"/>
     <div class="qbox" id="qbox"></div>
     <div id="choices"></div>
     <div id="feedback"></div>
     <button id="nextbtn">下一題 ▶</button>
     <div id="result"></div>
-    <img src="assets/湠臺灣LOGO.png" id="logo" alt="湠臺灣LOGO"/>
+    <img src="main/assets/湠臺灣LOGO.png" id="logo" alt="湠臺灣LOGO"/>
   </div>
 <script>
 const data = [
