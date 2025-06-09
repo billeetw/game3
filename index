@@ -10,10 +10,10 @@
       margin: 0;
       font-family: 'Noto Sans TC', sans-serif;
       min-height: 100vh;
-      background: url(assets/Web\ 1280\ –\ 4.png) center/cover no-repeat fixed;
+      background: url(assets/iPhone 14、13、12.png) center/cover no-repeat fixed;
     }
     @media (max-width: 650px) {
-      body { background: url(assets/iPhone\ 14、13、12.png) center/cover no-repeat fixed; }
+      body { background: url(assets/iPhone 14、13、12.png) center/cover no-repeat fixed; }
     }
     #mainbox {
       width: 350px; max-width: 96vw;
